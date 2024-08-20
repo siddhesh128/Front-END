@@ -1,7 +1,7 @@
 import axios from "axios";
-import { Todo } from "../types/types"
+import { Todo } from "../types";
 
-const apiBase = "http://localhost:5000/todos";
+const apiBase = "https://todo-backend-zsif.onrender.com/todos";
 
 export const fetchTodos = async (token: string | null) => {
   return await axios.get<Todo[]>(apiBase, {
