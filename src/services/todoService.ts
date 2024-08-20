@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Todo } from "../types";
+import { Todo } from "../../types/types";
 
 const apiBase = "https://todo-backend-zsif.onrender.com/todos";
 
